@@ -13,7 +13,7 @@
 
 ### 页面导入less
 
-> 引入js <script src="less.js" type="text/javascript"></script>
-> 引入less <link rel="stylesheet/less" type="text/css" href="style.less" />
+> 引入js \<script src="less.js" type="text/javascript"></script>
+> 引入less \<link rel="stylesheet/less" type="text/css" href="style.less" />
 
 
