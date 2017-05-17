@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #5B83AD;
+}
+.box1:hover {
+  background-color: #6c94be;
+}
+.red-border {
+  border: 1px solid crimson;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: #6c94be;
+  border: 1px solid crimson;
+}
+.box3 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid chocolate;
+}
+.box3 .box31 {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+.box3:after {
+  position: absolute;
+  content: 'hello';
+  top: 0;
+  left: 0;
+}
+.box4 {
+  width: 425px;
+  height: 200px;
+}
+.box4 .box41 {
+  float: left;
+  width: 106.25px;
+  height: 100%;
+  background-color: #6c94be;
+}
+.box4 .box42 {
+  float: left;
+  width: 106.25px;
+  height: 100%;
+  background-color: chartreuse;
+}
+.box4 .box43 {
+  float: left;
+  width: 106.25px;
+  height: 100%;
+  background-color: cornflowerblue;
+}
+.box4 .box44 {
+  float: left;
+  width: 106.25px;
+  height: 100%;
+  background-color: chocolate;
+}
+/* 临时 */
+.box6-title {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}

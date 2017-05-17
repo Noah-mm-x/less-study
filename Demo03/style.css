@@ -1,0 +1,21 @@
+.box11,
+.box12 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.box12 {
+  background: blueviolet;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: chocolate;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+}

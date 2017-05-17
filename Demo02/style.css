@@ -1,0 +1,20 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #6c94be;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: url("../images/1.jpg");
+  background-size: 100% 100%;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  color: #ddd;
+  background-color: coral;
+}
+.box3:hover {
+  background-color: #ff5a1d;
+}

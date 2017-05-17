@@ -1,0 +1,31 @@
+//选择器
+@selector:box1;
+
+.@{selector}{
+  width: 100px;
+  height: 100px;
+  background-color: #6c94be;
+}
+
+//路径
+@images:"../images";
+.box2{
+  width: 100px;
+  height: 100px;
+  background: url("@{images}/1.jpg");
+  background-size: 100% 100%;
+}
+
+//属性
+@base-color: coral;
+@dark-color: darken(@base-color, 10%);
+@property:color;
+.box3{
+  width: 100px;
+  height: 100px;
+  @{property}:#ddd;
+  background-@{property}:@base-color;
+  &:hover{
+    background-@{property}:@dark-color;
+  }
+}

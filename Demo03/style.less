@@ -1,0 +1,29 @@
+.box11 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.box12 {
+  &:extend(.box11);
+  background: blueviolet;
+}
+
+.border-radius(@radius:3px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: chocolate;
+  .border-radius(10px);
+}
+
+.box3{
+  width: 200px;
+  height: 200px;
+  //background: data-uri('../images/1.jpg');
+}
